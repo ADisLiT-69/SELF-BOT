@@ -14,7 +14,7 @@ else:
 PREFIX = config["prefix"]
 TOKEN = config["token"]
 STATUS = config["status"]
-IMAGE = config["image"]
+IMAGE = config["embedimage"]
 COLOUR = config["embedcolour"]
 
 bot = commands.Bot(command_prefix=PREFIX, self_bot = True, case_insensitive=True)
